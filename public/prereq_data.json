@@ -114,7 +114,7 @@
         },
         {
             "course_uid":               "CSCI-4100",
-            "prereq_formula":           ["CSCI-2300", "META-2", 3],
+            "prereq_formula":           ["CSCI-2300", "META-2", "META-3"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -128,7 +128,7 @@
         },
         {
             "course_uid":               "CSCI-4120",
-            "prereq_formula":           ["CSCI-2300", "META-2", 3],
+            "prereq_formula":           ["CSCI-2300", "META-2", "META-3"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -163,14 +163,14 @@
         },
         {
             "course_uid":               "CSCI-4240",
-            "prereq_formula":           [4, 5],
+            "prereq_formula":           ["META-4", "META-5"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
         },
         {
             "course_uid":               "CSCI-4250",
-            "prereq_formula":           ["CSCI-2300", "META-2", 3],
+            "prereq_formula":           ["CSCI-2300", "META-2", "META-3"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -198,7 +198,7 @@
         },
         {
             "course_uid":               "CSCI-4370",
-            "prereq_formula":           [6],
+            "prereq_formula":           ["META-6"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -219,7 +219,7 @@
         },
         {
             "course_uid":               "CSCI-4400",
-            "prereq_formula":           ["CSCI-1200", 7],
+            "prereq_formula":           ["CSCI-1200", "META-7"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -261,7 +261,7 @@
         },
         {
             "course_uid":               "CSCI-4500",
-            "prereq_formula":           ["CSCI-4430", 8],
+            "prereq_formula":           ["CSCI-4430", "META-8"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -275,14 +275,14 @@
         },
         {
             "course_uid":               "CSCI-4520",
-            "prereq_formula":           [9],
+            "prereq_formula":           ["META-9"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
         },
         {
             "course_uid":               "CSCI-4530",
-            "prereq_formula":           ["CSCI-2300", 10],
+            "prereq_formula":           ["CSCI-2300", "META-10"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -303,7 +303,7 @@
         },
         {
             "course_uid":               "CSCI-4650",
-            "prereq_formula":           [11],
+            "prereq_formula":           ["META-11"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -338,7 +338,7 @@
         },
         {
             "course_uid":               "CSCI-4820",
-            "prereq_formula":           [12],
+            "prereq_formula":           ["META-12"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -366,7 +366,7 @@
         },
         {
             "course_uid":               "CSCI-6100",
-            "prereq_formula":           ["CSCI-2300", "META-2", 3],
+            "prereq_formula":           ["CSCI-2300", "META-2", "META-3"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -380,7 +380,7 @@
         },
         {
             "course_uid":               "CSCI-6120",
-            "prereq_formula":           ["CSCI-2300", "META-2", 3],
+            "prereq_formula":           ["CSCI-2300", "META-2", "META-3"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -415,14 +415,14 @@
         },
         {
             "course_uid":               "CSCI-6240",
-            "prereq_formula":           [13, 14],
+            "prereq_formula":           ["META-13", "META-14"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
         },
         {
             "course_uid":               "CSCI-6250",
-            "prereq_formula":           ["CSCI-2300", "META-2", 3],
+            "prereq_formula":           ["CSCI-2300", "META-2", "META-3"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -450,7 +450,7 @@
         },
         {
             "course_uid":               "CSCI-6370",
-            "prereq_formula":           [6],
+            "prereq_formula":           ["META-6"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -464,7 +464,7 @@
         },
         {
             "course_uid":               "CSCI-6400",
-            "prereq_formula":           ["CSCI-1200", 7],
+            "prereq_formula":           ["CSCI-1200", "META-7"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -506,7 +506,7 @@
         },
         {
             "course_uid":               "CSCI-6530",
-            "prereq_formula":           ["CSCI-2300", 10],
+            "prereq_formula":           ["CSCI-2300", "META-10"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -520,28 +520,28 @@
         },
         {
             "course_uid":               "CSCI-6800",
-            "prereq_formula":           [12],
+            "prereq_formula":           ["META-12"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
         },
         {
             "course_uid":               "CSCI-6820",
-            "prereq_formula":           [12],
+            "prereq_formula":           ["META-12"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
         },
         {
             "course_uid":               "CSCI-6840",
-            "prereq_formula":           [12],
+            "prereq_formula":           ["META-12"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
         },
         {
             "course_uid":               "CSCI-6860",
-            "prereq_formula":           [12],
+            "prereq_formula":           ["META-12"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
