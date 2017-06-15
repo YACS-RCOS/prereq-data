@@ -415,7 +415,7 @@
         },
         {
             "course_uid":               "CSCI-6240",
-            "prereq_formula":           ["META-13", "META-14"],
+            "prereq_formula":           ["META-4", "META-5"],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -450,7 +450,7 @@
         },
         {
             "course_uid":               "CSCI-6370",
-            "prereq_formula":           ["META-6"],
+            "prereq_formula":           [6],
             "coreq_formula":            [],
             "suggested_prereq_formula": [],
             "suggested_coreq_formula":  []
@@ -657,16 +657,6 @@
             "meta_uid":                 "META-12",
             "name":                     "MATH 4800 or CSCI 4800",
             "contains":                 ["CSCI-4800", "MATH-4800"]
-        },
-        {
-            "meta_uid":                 "META-13",
-            "name":                     "CSCI-4230/6230",
-            "contains":                 ["CSCI-4230", "CSCI-6230"]
-        },
-        {
-            "meta_uid":                 "META-14",
-            "name":                     "ECSE-4670 or CSCI-4220",
-            "contains":                 ["ECSE-4670", "CSCI-4220"]
         }
     ]
 }
