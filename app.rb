@@ -12,6 +12,6 @@ set :protection, false
 set :bind, '0.0.0.0'
 set :port, 3100
 
-get '/CSCI' do
+get '/prereq/CSCI' do
     File.read('./public/prereq_data.json')
 end
