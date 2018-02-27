@@ -1,0 +1,76 @@
+{
+    "MATH_nodes":
+    [   
+    ],
+    "ENGR_nodes":
+    [   
+    ],
+    "CSCI_nodes":
+    [
+        {
+            "course_uid":               "CSCI-1100",
+            "prereq_formula":           [],
+            "coreq_formula":            [],
+            "suggested_prereq_formula": [],
+            "suggested_coreq_formula":  []
+        },
+        {
+            "course_uid":               "CSCI-1200",
+            "prereq_formula":           ["CSCI-1100"],
+            "coreq_formula":            [],
+            "suggested_prereq_formula": [],
+            "suggested_coreq_formula":  []
+        },
+        {
+            "course_uid":               "CSCI-2200",
+            "prereq_formula":           ["CSCI-1200", "META-1"],
+            "coreq_formula":            [],
+            "suggested_prereq_formula": ["CSCI-1200", "MATH-1020"],
+            "suggested_coreq_formula":  []
+        },
+        {
+            "course_uid":               "CSCI-2300",
+            "prereq_formula":           ["CSCI-1200","CSCI-2200","MATH-1010"],
+            "coreq_formula":            [],
+            "suggested_prereq_formula": [],
+            "suggested_coreq_formula":  []
+        },
+        {
+            "course_uid":               "CSCI-2500",
+            "prereq_formula":           ["CSCI-1200"],
+            "coreq_formula":            [],
+            "suggested_prereq_formula": [],
+            "suggested_coreq_formula":  []
+        },
+        {
+            "course_uid":               "CSCI-2600",
+            "prereq_formula":           ["CSCI-1200","CSCI-2200"],
+            "coreq_formula":            [],
+            "suggested_prereq_formula": [],
+            "suggested_coreq_formula":  []
+        },
+        {
+            "course_uid":               "CSCI-4210",
+            "prereq_formula":           ["CSCI-2300", "CSCI-2500"],
+            "coreq_formula":            [],
+            "suggested_prereq_formula": [],
+            "suggested_coreq_formula":  []
+        },
+        {
+            "course_uid":               "CSCI-4430",
+            "prereq_formula":           ["CSCI-2300"],
+            "coreq_formula":            [],
+            "suggested_prereq_formula": [],
+            "suggested_coreq_formula":  []
+        }
+        
+    ],
+    "meta_nodes":
+    [
+        {
+            "meta_uid":                 "META-1",
+            "name":                     "Intro to Calculus",
+            "contains":                 ["MATH-1020","MATH-1500"]
+        }
+    ]
+}

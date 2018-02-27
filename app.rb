@@ -13,5 +13,5 @@ set :bind, '0.0.0.0'
 set :port, 3100
 
 get '/prereq/CSCI' do
-    File.read('./public/prereq_data.json')
+    File.read('./public/prereq_data_demo.json')
 end
