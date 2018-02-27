@@ -1,4 +1,4 @@
-FROM ruby:alpine
+FROM ruby:2.4.2-alpine
 
 ENV SEMESTER 201709
 
